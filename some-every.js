@@ -10,7 +10,7 @@ function hasOddNumber(arr) {
     return arr.some(function(num){
        return num % 2 !== 0
     })   
-}
+} 
 
 /*
 Write a function called hasAZero which accepts a number and returns true if that number contains at least one zero. Otherwise, the function should return false

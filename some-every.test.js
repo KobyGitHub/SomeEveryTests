@@ -3,7 +3,7 @@ describe("#hasOddNumber", function() {
     expect(hasOddNumber([1, 2, 2, 2, 2, 2, 4])).toEqual(true);
   });
   it("returns false if there are no odd numbers in the array", function() {
-    expect(hasOddNumber([2, 2, 2, 2, 2, 4])).toEqual(false);
+    expect(hasOddNumber([2, 2, 2, 2, 2, 4])).toEqual(false); 
   });
 });
 
